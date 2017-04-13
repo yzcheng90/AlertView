@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--自定义AlertDialog-->
+        <item name="alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert.Self</item>
+    </style>
+
+
+    <!--设置dialogbutton颜色-->
+    <style name="Theme.AppCompat.Light.Dialog.Alert.Self" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <!--修改AlertDialog按钮的颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--将对应的Activity主题设置为AppTheme.NoActionBar-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- popupwindow style -->
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_popmenu_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_popmenu_hide</item>
+    </style>
+
+    <style name="WindowAnimationFadeInOut">
+        <item name="@android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="ButtonGreen">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">right|center</item>
+    </style>
+
+    <style name="TransparentText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <!-- dialog样式 -->
+    <style name="record_voice_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>  <!--是否浮在界面上-->
+        <item name="android:windowIsTranslucent">false</item>  <!--是否半透明-->
+        <item name="android:windowNoTitle">true</item>     <!--是否有标题-->
+        <item name="android:backgroundDimEnabled">true</item> <!--背景是否模糊显示-->
+        <item name="android:windowBackground">@drawable/round_background</item>  <!--窗口背景色-->
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_show_animation</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_hide_animation</item>
+    </style>
+
+</resources>

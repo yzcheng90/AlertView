@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01a1f7</color>
+    <color name="colorPrimaryDark">#0882ba</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorTranslucence">#90ffffff</color>
+    <color name="colorGrey">#0c0c0c</color>
+    <color name="translucent">#00ffffff</color>
+    <color name="bg">#f5f5f5</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="dialog_alert_warning">#FFF1A01F</color>
+    <color name="dialog_alert_error">#FFFF0A01</color>
+    <color name="dialog_alert_success">#3bde00</color>
+
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#87000000</color>
+    <color name="text_disabled">#38000000</color>
+</resources>
