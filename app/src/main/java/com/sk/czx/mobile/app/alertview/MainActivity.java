@@ -55,10 +55,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 AlertUtil.showWarning(this,"警告!");
                 break;
             case R.id.button4:
-                AlertUtil.showSuccess(this,"OK!");
+                AlertUtil.showSuccess(this,"SUCCESS!");
                 break;
             case R.id.button5:
-                AlertUtil.showAlert(this,"OK!","提示信息");
+                AlertUtil.showAlert(this,"SUCCESS!","提示信息");
                 break;
         }
     }
