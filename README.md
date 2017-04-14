@@ -1,5 +1,5 @@
-# AlertView
-一个非常简洁的dialog alert
+# android AlertView
+A very simple dialog alert
 
 ###Add it in your root build.gradle at the end of repositories:
 
@@ -8,17 +8,19 @@
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}Copy
+	}
+
 ###Step 2. Add the dependency
 
 	dependencies {
 	        compile 'com.github.yzcheng90:AlertView:1.0'
 	}
 
-### 使用方法 下载clone到本地
+### Or clone to local
+
 	compile project(path: ':alertlibrary')
 
-### 调用方法
+### invoking
 	 new DialogAlert(activity,DialogAlert.ALERT_DEFAULT)
 	                .setMsg("这里是消息内容")
 	                .setTitle("提示信息")
